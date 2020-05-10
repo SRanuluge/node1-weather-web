@@ -1,0 +1,137 @@
+body {
+  color: #878787;
+  font-family: "Arial";
+  max-width: 80%;
+  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.header-content {
+  flex-grow: 1;
+}
+
+footer {
+  color: #878787;
+  border-top: 0.1rem solid #eeeeee;
+  margin-top: 16px;
+  font-size: 0.9rem;
+  padding: 16px 0;
+}
+
+header {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 0.1rem solid #eeeeee;
+}
+
+header h1 {
+  font-size: 64px;
+}
+
+header a {
+  color: #888888;
+  margin-right: 0.9rem;
+  text-decoration: none;
+}
+
+header a:hover {
+  color: #473838;
+}
+
+#portrait {
+  width: 100px;
+  height: 100px;
+}
+#data-1 {
+  font-size: 20px;
+  font-weight: bold;
+}
+#data-2 {
+  font-size: 14px;
+  font-weight: bolder;
+}
+
+#main-view {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#sub-view-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 20%;
+}
+
+#sub-view-1 img {
+  height: 100px;
+  width: 100px;
+  margin-right: 2%;
+}
+
+#data-2 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+input {
+  padding: 9px 5px;
+  border: 2px solid #eeeeee;
+  width: 250px;
+  color: #888888;
+  font-size: 16px;
+  border-radius: 3px;
+}
+.link-h a {
+  font-size: 16px;
+}
+
+button {
+  position: relative;
+  background-color: #878787;
+  border: none;
+  font-size: 16px;
+  color: #ffffff;
+  padding: 11px 20px;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+button:after {
+  content: "";
+  background: #f1f1f1;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s;
+}
+
+button:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s;
+}
+
+:placeholder-shown {
+  font-size: 16px;
+}
+::placeholder {
+  color: #878787;
+  font-family: "Arial";
+}
