@@ -20,7 +20,7 @@ weatherForm.addEventListener('submit', (e) => {
 
     document.getElementById("data-4").src = '/img/default.png'
 
-    fetch('http://localhost:3000/weather?address=' + location)
+    fetch('/weather?address=' + location)
         .then((response) => {
             response.json().then((data) => {
                 if (data.error) {
