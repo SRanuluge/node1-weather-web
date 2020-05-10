@@ -1,7 +1,7 @@
 body {
   color: #878787;
   font-family: "Arial";
-  max-width: 80%;
+  max-width: 60%;
   margin: 0 auto;
   min-height: 100vh;
   display: flex;
@@ -14,7 +14,7 @@ body {
 footer {
   color: #878787;
   border-top: 0.1rem solid #eeeeee;
-  font-size: 1vw;
+  font-size: 16px;
 }
 
 header {
@@ -26,7 +26,7 @@ header {
 }
 
 header h1 {
-  font-size: 5vw;
+  font-size: 50px;
 }
 
 header a {
@@ -44,11 +44,11 @@ header a:hover {
   height: 100px;
 }
 #data-1 {
-  font-size: 2vw;
+  font-size: 20px;
   font-weight: bold;
 }
 #data-2 {
-  font-size: 4vw;
+  font-size: 50px;
   font-weight: bolder;
 }
 
@@ -74,14 +74,17 @@ header a:hover {
 }
 
 #data-6 {
-  font-size: 1vw;
+  font-size: 16px;
 }
 .other-data {
-  font-size: 1vw;
+  font-size: 16px;
 }
 
 #t-1 {
-  font-size: 1vw;
+  font-size: 16px;
+}
+#t-2 {
+  font-size: 16px;
 }
 
 input {
@@ -89,18 +92,18 @@ input {
   border: 2px solid #eeeeee;
   width: 250px;
   color: #888888;
-  font-size: 1vw;
+  font-size: 16px;
   border-radius: 3px;
 }
 .link-h a {
-  font-size: 1vw;
+  font-size: 16px;
 }
 
 button {
   position: relative;
   background-color: #878787;
   border: none;
-  font-size: 1vw;
+  font-size: 16px;
   color: #ffffff;
   padding: 11px 20px;
   text-align: center;
@@ -132,7 +135,7 @@ button:active:after {
 }
 
 :placeholder-shown {
-  font-size: 1vw;
+  font-size: 16px;
 }
 ::placeholder {
   color: #878787;
