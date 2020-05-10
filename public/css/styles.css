@@ -14,13 +14,10 @@ body {
 footer {
   color: #878787;
   border-top: 0.1rem solid #eeeeee;
-  margin-top: 16px;
-  font-size: 0.9rem;
-  padding: 16px 0;
+  font-size: 1vw;
 }
 
 header {
-  margin-bottom: 20px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -29,7 +26,7 @@ header {
 }
 
 header h1 {
-  font-size: 64px;
+  font-size: 5vw;
 }
 
 header a {
@@ -47,11 +44,11 @@ header a:hover {
   height: 100px;
 }
 #data-1 {
-  font-size: 20px;
+  font-size: 2vw;
   font-weight: bold;
 }
 #data-2 {
-  font-size: 14px;
+  font-size: 4vw;
   font-weight: bolder;
 }
 
@@ -71,14 +68,20 @@ header a:hover {
 }
 
 #sub-view-1 img {
-  height: 100px;
-  width: 100px;
   margin-right: 2%;
+  max-width: 100%;
+  height: auto;
 }
 
-#data-2 {
-  font-size: 50px;
-  font-weight: bold;
+#data-6 {
+  font-size: 1vw;
+}
+.other-data {
+  font-size: 1vw;
+}
+
+#t-1 {
+  font-size: 1vw;
 }
 
 input {
@@ -86,18 +89,18 @@ input {
   border: 2px solid #eeeeee;
   width: 250px;
   color: #888888;
-  font-size: 16px;
+  font-size: 1vw;
   border-radius: 3px;
 }
 .link-h a {
-  font-size: 16px;
+  font-size: 1vw;
 }
 
 button {
   position: relative;
   background-color: #878787;
   border: none;
-  font-size: 16px;
+  font-size: 1vw;
   color: #ffffff;
   padding: 11px 20px;
   text-align: center;
@@ -129,7 +132,7 @@ button:active:after {
 }
 
 :placeholder-shown {
-  font-size: 16px;
+  font-size: 1vw;
 }
 ::placeholder {
   color: #878787;

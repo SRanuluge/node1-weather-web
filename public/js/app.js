@@ -16,7 +16,7 @@ weatherForm.addEventListener('submit', (e) => {
     data_2.textContent = ''
     data_6.textContent = ''
     data_3.textContent = ''
-    data_5.textContent = ''
+    data_5.textContent = '' 
 
     document.getElementById("data-4").src = '/img/default.png'
 
