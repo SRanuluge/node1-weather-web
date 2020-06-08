@@ -1,5 +1,5 @@
 # Weather App
-A simple Weather app using nodejs
+A simple Weather app using nodejs.\n
 go to [https://ranuluge-weather-app.herokuapp.com](https://ranuluge-weather-app.herokuapp.com/)
 ## Getting started
 Make sure you have npm installed.
